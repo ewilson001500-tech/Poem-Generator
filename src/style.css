@@ -58,6 +58,10 @@ form {
   border-radius: 2px;
 }
 
+.poem strong {
+  color: #749e8b;
+}
+
 footer {
   margin-top: 35px;
   font-size: 15px;
