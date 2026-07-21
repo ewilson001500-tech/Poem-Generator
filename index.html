@@ -7,44 +7,47 @@
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>Welcome to the AI Poem Generator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>The AI Poem Generator</h1>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter a topic for a poem"
-          required
-          autofocus
-        />
-        <input type="submit" />
-      </form>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter a topic for a poem"
+            required
+            autofocus
+            class="prompt"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
 
-      <div>
-        The first line of poem
-        <br />
-        The second line of poem
-      </div>
-    </main>
+        <div class="poem">
+          The first line of poem
+          <br />
+          The second line of poem
+        </div>
+      </main>
 
-    <footer>
-      This was coded by
-      <a href="https://github.com/ewilson001500-tech" target="_blank"
-        >Erin Wilson
-      </a>
-      and is open-sourced on
-      <a
-        href="https://github.com/ewilson001500-tech/Poem-Generator"
-        target="_blank"
-        >GitHub</a
-      >
-      and is hosted on
-      <a href="https://ew-poem-generator.netlify.app/" target="_blank"
-        >Netlify</a
-      >.
-    </footer>
+      <footer>
+        This was coded by
+        <a href="https://github.com/ewilson001500-tech" target="_blank"
+          >Erin Wilson
+        </a>
+        and is open-sourced on
+        <a
+          href="https://github.com/ewilson001500-tech/Poem-Generator"
+          target="_blank"
+          >GitHub</a
+        >
+        and is hosted on
+        <a href="https://poem-generator-iota-three.vercel.app/" target="_blank"
+          >Vercel</a
+        >.
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
